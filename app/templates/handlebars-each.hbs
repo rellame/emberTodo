@@ -1,0 +1,9 @@
+<ul>
+	{{!model}}
+	{{#each model as |item index|}}
+		<li>{{index}}Hello, my name is {{item.name}} and I'm {{item.age}} years old.</li>
+	{{else}}
+		Sorry, nobody is here.
+	{{/each}}
+</ul>
+{{outlet}}

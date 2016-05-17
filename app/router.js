@@ -6,6 +6,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('handlbars-conditions-exp-route');
+  this.route('handlebars-each');
 });
 
 export default Router;
